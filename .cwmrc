@@ -1,0 +1,33 @@
+gap 13 0 0 0
+
+## Virtual Desktops via groups
+bind M-1        grouponly1
+bind M-2        grouponly2
+bind M-3        grouponly3
+bind M-4        grouponly4
+bind M-5        grouponly5
+bind M-6        grouponly6
+bind M-7        grouponly7
+bind M-8        grouponly8
+bind M-9        grouponly9
+
+## Move a window to a group
+bind MS-1       movetogroup1
+bind MS-2       movetogroup2
+bind MS-3       movetogroup3
+bind MS-4       movetogroup4
+bind MS-5       movetogroup5
+bind MS-6       movetogroup6
+bind MS-7       movetogroup7
+bind MS-8       movetogroup8
+bind MS-9       movetogroup9
+
+## Unbind keys for mouse movement (so C-Left & C-Right move left/right by words)
+bind C-Up	unmap
+bind C-Down	unmap
+bind C-Left	unmap
+bind C-Right	unmap
+bind CS-Up	unmap
+bind CS-Down	unmap
+bind CS-Left	unmap
+bind CS-Right	unmap
